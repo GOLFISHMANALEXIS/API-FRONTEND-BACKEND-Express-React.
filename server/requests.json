@@ -1,0 +1,107 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-06-26T18:50:19.796Z",
+    "__export_source": "insomnia.desktop.app:v2022.4.2",
+    "resources": [
+        {
+            "_id": "req_dbdcc237491046258b13246ea36acf29",
+            "parentId": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "modified": 1656269256714,
+            "created": 1656269245324,
+            "url": "http://localhost:5000/hello",
+            "name": "hello",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1656269245324,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "parentId": null,
+            "modified": 1656269121962,
+            "created": 1656269121962,
+            "name": "APi frond back",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_c7839213f1c04d64b6e5e56754f0f8e8",
+            "parentId": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "modified": 1656269240545,
+            "created": 1656269126133,
+            "url": "http://localhost:5000/api",
+            "name": "api",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1656269126133,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_05be2b89783b57b060e9956dee94bdd943b941f2",
+            "parentId": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "modified": 1656269121972,
+            "created": 1656269121972,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1656269121972,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_05be2b89783b57b060e9956dee94bdd943b941f2",
+            "parentId": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "modified": 1656269372179,
+            "created": 1656269121974,
+            "name": "Default Jar",
+            "cookies": [
+                {
+                    "id": "1d54e014-cfa2-4681-9da2-1a13ccc2e052",
+                    "key": "foo",
+                    "value": "bar",
+                    "domain": "domain.com",
+                    "expires": 2147483647000,
+                    "path": "/",
+                    "secure": false,
+                    "httpOnly": false
+                }
+            ],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_96afe1dd0c504720819d4a78c2590f8a",
+            "parentId": "wrk_43fc8803747943c6974b5198c6d40cb8",
+            "modified": 1656269121966,
+            "created": 1656269121966,
+            "fileName": "APi frond back",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
